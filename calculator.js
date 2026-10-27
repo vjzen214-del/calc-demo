@@ -1,6 +1,6 @@
 // Does the math. op is one of: + - * /
 function calculate(a, op, b) {
-  if (op === "+") return a + b;
+  if (op === "+") return a - b;
   if (op === "-") return a - b;
   if (op === "*") return a * b;
   if (op === "/") {
